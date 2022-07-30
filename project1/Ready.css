@@ -1,0 +1,21 @@
+h3{
+    text-align: center;
+    font-size:500%;
+    color: red;
+}
+.heading{
+    text-align: left;
+    padding-left: 20%;
+    font-size:300%;
+    color: aqua;
+    float: none;
+
+}
+input[type=radio]{
+width: 100%;
+height: 5%;
+}
+label{
+    padding-left: 50%;
+    font-size: 250%;
+}

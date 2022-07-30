@@ -1,0 +1,149 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    color: yellowgreen;margin-top: 10px;
+}
+form{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+    width: 800px;
+    height: 600px;
+    left: 50%;
+    top: 60%;
+    border-width: 2pxS;
+    margin-bottom: 10px;
+}
+label{
+    display:block;
+    margin-top: 25px;
+    font-size: 20px;
+    color: greenyellow;
+    font-weight: 500;
+}
+.in{
+    display: block;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.158);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color:black;
+}
+.logn{
+    margin-top: 50px;
+    width: 100%;
+    background-color:lightslategrey;
+    color: red;
+    padding: 12px 0;
+    border: 4px;
+    border-color: greenyellow;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logn a{
+    text-decoration: none;
+}
+.sign{
+    margin-top: 50px;
+    width: 50%;
+    background-color:lightslategray;
+    color: red;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border-color: greenyellow;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logn:hover{
+    background: pink;
+}
+.logn a:hover{
+    color: white;
+}
+.sign:hover{
+background: red;
+
+}
+.sign a{
+    text-decoration: none;
+}
+.sign a:hover{
+    color:white;
+}
+.fbd form{
+    width: 800px;
+    height: 800px;
+    padding: 10px,40px;
+    left: 50%;
+    top: 60%;
+    border-width: 2pxS;
+    margin-bottom: 10px;
+}
+.hol{
+    float: left;
+    width: 49%;
+}
+.hor{
+float: right;
+width: 49%;
+}
+.fbd label{
+    color: orangered;
+}
+.smain{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%,rgba(0,0,0,0.5) 50%), url(b.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+}
+.tbl{
+    color: aqua;
+    text-decoration: solid;
+    border-color: olivedrab;
+    border-top: none;
+    border-left: 2px;
+    border-right: none;
+    border-bottom: 2px;
+    margin-top: auto;
+    margin-left: 3opx;
+    margin-bottom: 2opx;
+    margin-right: auto;
+}
+tr{
+    padding-left: 20px;
+    
+}
+.sel{
+    width: 100%;
+    height: 40px; 
+ }
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%,rgba(0,0,0,0.5) 50%), url(a.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 150vh;
+} 
